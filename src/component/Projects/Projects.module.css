@@ -1,0 +1,27 @@
+.projectBlock {
+  background-color: #fff;
+}
+
+.projectConteiner {
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+
+.title {
+  background-color: rgb(189, 5, 5);
+}
+
+.project {
+  border: 1px solid;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 1129px) {
+  .project {
+    justify-content: space-between;
+  }
+}

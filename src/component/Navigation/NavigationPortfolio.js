@@ -1,13 +1,29 @@
 import React from "react";
-import style from "./NavigationPortfolio.module.css"
+import style from "./NavigationPortfolio.module.css";
 
 function NavigationPortfolio() {
   return (
-    <div className={style.nav}>
-      <a href="">Главная</a>
-      <a href="">Скиллы</a>
-      <a href="">Проекты</a>
-      <a href="">Контакты</a>
+    <div className={style.menu}>
+      <ul>
+        <li>
+          <a href="">Home</a>
+        </li>
+        <li>
+          <a href="">About</a>
+        </li>
+        <li>
+          <a href="">Skills</a>
+        </li>
+        <li>
+          <a href="">Projects</a>
+        </li>
+        <li>
+          <a href="">Hier</a>
+        </li>
+        <li>
+          <a href="">Contact</a>
+        </li>
+      </ul>
     </div>
   );
 }

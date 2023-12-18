@@ -1,0 +1,17 @@
+.titles {
+  background-color: #fff;
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  opacity: 0;
+  padding: 5px 15px;
+  position: fixed;
+  visibility: hidden;
+  white-space: nowrap;
+  z-index: 5;
+}
+
+
+
+

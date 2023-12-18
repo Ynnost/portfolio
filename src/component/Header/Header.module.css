@@ -1,7 +1,67 @@
-.header {
-  height: 80px;
-  background-color: rgb(169, 222, 224);
-  display: flex;
+.topbar {
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+
+.topbar .topbarInner {
   align-items: center;
-  justify-content: flex-end;
+  clear: both;
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  padding: 25px 50px;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.opened {
+  background-color: #000;
+}
+
+.topbar .topbarInner .logo a {
+  display: inline-block;
+}
+
+.topbar .menu ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+.topbar .menu ul li {
+  display: inline-block;
+  margin: 0;
+  margin: 0 25px 0 0;
+}
+
+.topbar .menu ul li:last-child {
+  margin-right: 0;
+}
+
+.topbar .menu ul li a {
+  color: #ffffff;
+  color: #ffffff;
+  font-family: Poppins;
+  font-weight: 500;
+  position: relative;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.topbar .menu ul li a:before {
+  background: currentcolor;
+  bottom: -5px;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  transition: 0.3s;
+  width: 0;
+}
+
+.topbar .menu ul li.current a:before {
+  width: 100%;
 }

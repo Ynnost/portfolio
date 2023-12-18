@@ -1,0 +1,19 @@
+.project {
+  width: 450px;
+  background-color: darkgrey;
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  height: 300px;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.viewBtn {
+  background-color: rgb(57, 5, 189);
+  padding: 10px 20px;
+}

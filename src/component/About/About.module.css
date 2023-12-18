@@ -1,0 +1,39 @@
+.mainblock {
+  height: 100vh;
+  background-color: #fff;
+}
+
+.inner {
+  align-items: center;
+  clear: both;
+  display: flex;
+  height: auto;
+  width: 100%;
+}
+
+.left {
+  margin-bottom: 50px;
+  padding-right: 0;
+  width: 100%;
+}
+
+.img {
+  position: relative;
+}
+
+.text {
+  width: 300px;
+  background-color: rgb(64, 126, 219);
+}
+
+.photo {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 0;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}

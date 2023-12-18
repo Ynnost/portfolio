@@ -1,0 +1,17 @@
+.hierBlock {
+  background-color: rgb(240, 240, 240);
+}
+
+.hierConteiner {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.title {
+  background-color: rgb(189, 5, 109);
+}
+
+.hierBtn {
+  padding: 10px 20px;
+  background-color: bisque;
+}
